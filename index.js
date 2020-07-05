@@ -72,13 +72,13 @@ function playpauseSong() {
 function playSong() {
     curr_song.play();
     isPlaying = true;
-    playpause_btn.innerHTML = '<i class="fa fa-pause-circle fa-5x"></i>';
+    playpause_btn.innerHTML = '<i class="fa fa-pause fa-4x"></i>';
 }
 
 function pauseSong() {
     curr_song.pause();
     isPlaying = false;
-    playpause_btn.innerHTML = '<i class="fa fa-play-circle fa-5x"></i>';;
+    playpause_btn.innerHTML = '<i class="fa fa-play fa-4x"></i>';;
 }
 
 function nextSong() {
